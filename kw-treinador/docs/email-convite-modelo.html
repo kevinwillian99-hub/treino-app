@@ -1,0 +1,26 @@
+<!-- Cole isto em Authentication > Email Templates > Invite user, no modo HTML -->
+<!-- Troque "https://SEU-DOMINIO-AQUI.vercel.app" pelo endereço real do seu app -->
+
+<div style="background-color:#15151A; padding:40px 20px; font-family:Arial, sans-serif;">
+  <div style="max-width:420px; margin:0 auto; background-color:#1A1A20; border-radius:16px; padding:32px; text-align:center;">
+
+    <img src="https://SEU-DOMINIO-AQUI.vercel.app/logo.png" alt="Kevin Willian Treinador" width="160" style="margin-bottom:24px; display:block; margin-left:auto; margin-right:auto;" />
+
+    <h1 style="color:#ffffff; font-size:18px; margin:0 0 8px;">Bem-vindo(a), {{ .Data.name }}!</h1>
+
+    <p style="color:rgba(255,255,255,0.6); font-size:14px; line-height:1.5; margin:0 0 24px;">
+      Você foi adicionado(a) como aluno(a) na plataforma <strong style="color:#FEBC03;">Kevin Willian Treinador</strong>.
+      Clique no botão abaixo para criar sua senha e acessar o app.
+    </p>
+
+    <a href="{{ .ConfirmationURL }}"
+       style="display:inline-block; background-color:#FEBC03; color:#15151A; font-weight:bold; font-size:14px; padding:14px 32px; border-radius:12px; text-decoration:none;">
+      Criar minha senha e entrar
+    </a>
+
+    <p style="color:rgba(255,255,255,0.3); font-size:12px; margin-top:24px;">
+      Bom treino.<br>Equipe Kevin Willian Treinador
+    </p>
+
+  </div>
+</div>

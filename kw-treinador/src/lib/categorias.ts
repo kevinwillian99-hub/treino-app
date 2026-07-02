@@ -1,0 +1,18 @@
+export const categoriasExercicio = [
+  'Abdômen',
+  'Aeróbico',
+  'Alongamento',
+  'Bíceps',
+  'Core',
+  'Dorsal',
+  'Funcional',
+  'Glúteo',
+  'Isquiotibiais',
+  'Mobilidade',
+  'Ombro',
+  'Panturrilha',
+  'Peito',
+  'Quadríceps',
+  'Respiratório',
+  'Tríceps',
+]
